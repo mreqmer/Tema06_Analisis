@@ -1,0 +1,96 @@
+Vehículo
+
+- String marca
+- String modelo
+- String color
+- String matrícula
++ boolean motor
++ int marcha
++ double velocidad
+
+------------------------------------
+
++boolean parar()
++boolean arrancar()
++void cambiarVelocidad(int velocidad, int tiempo)
++void subirMarcha()
++void bajarMarcha()
++boolean pasaGato()
+
+
+Turismo extends Vehículo
+
+- int numPlazas
+- uso enum (profesional/particular)
+	
+------------------------------------
+	heredados:
+		- marca
+		- modelo
+		- color
+		- matrículo
+		- motor
+		- marcha
+		- velocidad
+		
+		+boolean parar()
+		+boolean arrancar()
+		+void cambiarVelocidad(int velocidad, int tiempo )
+		+void subirMarcha()
+		+void bajarMarcha()
+		+boolean pasaGato()
+		
+
+Camion extends Vehículo
+
+- int pesoMax
+- boolean mercanciaPeligrosa
+
+-----------------------------------
+
+	heredados:
+		- marca
+		- modelo
+		- color
+		- matrículo
+		- motor
+		- marcha
+		- velocidad
+		
+		+boolean parar()
+		+boolean arrancar()
+		+void cambiarVelocidad(int velocidad, int tiempo )
+		+void subirMarcha()
+		+void bajarMarcha()
+		+boolean pasaGato()
+
+-----------------------------------
+
+
+
+Motocicleta extends Vehículo
+
+- int cilindradas
+
+
+-----------------------------
+
+- boolean requiereCarnet(cilindrada)
+
+-------------------------------
+
+heredados:
+		- marca
+		- modelo
+		- color
+		- matrículo
+		- motor
+		- marca
+		- velocidad
+		
+		+boolean parar()
+		+boolean arrancar()
+		+void cambiarVelocidad(int velocidad, int tiempo )
+		+void subirMarcha()
+		+void bajarMarcha()
+		+boolean pasaGato()
