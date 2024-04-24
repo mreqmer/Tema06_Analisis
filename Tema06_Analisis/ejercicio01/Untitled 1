@@ -12,10 +12,15 @@ Vehículo
 
 +boolean parar()
 +boolean arrancar()
-+void cambiarVelocidad(int velocidad, int tiempo)
-+void subirMarcha()
-+void bajarMarcha()
++void acelerar(int velocidad)
++void frenar()
+-void subirMarcha()
+-void bajarMarcha()
 +boolean pasaGato()
++setMotor(boolean motor)
++setMarcha(boolean motor)
++aqui va el contructor(parametros)
+
 
 
 Turismo extends Vehículo
