@@ -4,9 +4,9 @@ Vehículo
 - String modelo
 - String color
 - String matrícula
-+ boolean motor
-+ int marcha
-+ double velocidad
+- boolean motor
+- int marcha
+- double velocidad
 
 ------------------------------------
 
@@ -25,8 +25,10 @@ Vehículo
 
 Turismo extends Vehículo
 
+enum TIPO PROFESIONAL, PARTICULAR
+
 - int numPlazas
-- uso enum (profesional/particular)
+- uso TIPO
 	
 ------------------------------------
 	heredados:
